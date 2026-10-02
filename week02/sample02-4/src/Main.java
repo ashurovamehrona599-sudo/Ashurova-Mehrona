@@ -12,7 +12,7 @@ void main() {
     System.out.printf("%s님의 나이는 ?", name);
     age = keyboard.nextInt();
     System.out.printf("%s님의 키는 ?", name);
-    height = keyboard.nextFloat();
+    height = keyboard. nextFloat();
     System.out.printf("%s님의 몸무게는 ?", name);
     weight = keyboard.nextDouble();
 
