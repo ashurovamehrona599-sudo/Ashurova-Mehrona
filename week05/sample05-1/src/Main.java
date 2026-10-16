@@ -1,0 +1,23 @@
+//TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
+// click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
+void main() {
+    Scanner keyboard = new Scanner(System.in);
+    int width; // 가로 길이
+    int height; // 새로 길이
+
+    char type; // 사각형의 type( 정, 직 사가형)
+    int area; //면적
+
+    System.out.print("사각형의 가로 길이 입력(예5) :");
+    width = keyboard.nextInt();
+    System.out.print("사각형의 가로 길이 입력(예5) :");
+    height = keyboard.nextInt();
+
+    type = (width == height)? '정' : '직';
+    area = width * height;
+
+    System.out.printf("**** %c사각형 넓이 ******\n", type);
+    System.out.printf("\t\t가로 길이 : %,d Cm\n", width);
+    System.out.printf("\t\t세로 길이 : %,d Cm\n", height);
+    System.out.printf("\t\t넓     이 : %,d \u33a0\n", area);
+}
